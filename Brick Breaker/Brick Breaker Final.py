@@ -411,7 +411,7 @@ class Block(pygame.sprite.Sprite):
 
 class Label():	
 	def __init__(self, x, y, size):
-		self.font = pygame.font.Font("AmericanCaptain.otf", size)
+		self.font = pygame.font.Font(None, size)
 		self.x, self.y = x, y
 
 	def write (self, color, text):
